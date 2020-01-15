@@ -31,6 +31,63 @@ let beige = Color(hue: 69, saturation: 6, brightness: 87, alpha: 100)
 
 // Begin your solution here...
 
+// pink background
+canvas.drawShapesWithBorders = false
+canvas.drawShapesWithFill = true
+canvas.fillColor = Color(hue: 338, saturation: 83, brightness: 89, alpha: 100)
+canvas.drawRectangle(at: Point(x:0, y:0), width: 400, height: 600)
+
+//top right coner
+canvas.fillColor = Color.black
+canvas.drawRectangle(at: Point(x:200, y:200), width: 190, height: 190)
+
+//top left corner
+canvas.fillColor = Color.black
+canvas.drawRectangle(at: Point(x:0, y:200), width: 190, height: 190)
+
+//bottom corner
+canvas.fillColor = Color.black
+canvas.drawRectangle(at: Point(x:200, y:200), width: 190, height: 190)
+
+
+
+
+// squares on the left bottom corner
+
+
+
+
+
+// black square
+canvas.fillColor = Color.black
+canvas.drawRectangle(at: Point(x:0, y:0), width: 190, height: 190)
+// pink square
+canvas.fillColor = pink
+canvas.drawRectangle(at: Point(x:0, y:0), width: 175, height: 175)
+// beige square
+canvas.fillColor = beige
+canvas.drawRectangle(at: Point(x:0, y:0), width: 170, height: 170)
+// pink
+canvas.fillColor = pink
+canvas.drawRectangle(at: Point(x:0, y:0), width: 160, height: 160)
+//black
+canvas.fillColor = Color.black
+canvas.drawRectangle(at: Point(x:0, y:0), width: 150, height: 150)
+// pink square
+canvas.fillColor = pink
+canvas.drawRectangle(at: Point(x:0, y:0), width: 140, height: 140)
+//beige
+canvas.fillColor = beige
+canvas.drawRectangle(at: Point(x:0, y:0), width: 130, height: 130)
+// pink
+canvas.fillColor = pink
+canvas.drawRectangle(at: Point(x:0, y:0), width: 120, height: 120)
+//black
+canvas.fillColor = black
+canvas.drawRectangle(at: Point(x:0, y:0), width: 110, height: 110)
+//pink
+canvas.fillColor = pink
+canvas.drawRectangle(at: Point(x:0, y:0), width: 100, height: 100)
 
 /*:
  ## Use Source Control
